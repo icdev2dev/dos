@@ -1,5 +1,5 @@
 # Protecting against a DOS attack
-This project prevents certain update functions from being executed on a dynamic basis in the SmartCanister on the Internet Computer.
+This project provides some capabilities to SmartCanisters for responding to DOS attacks. Specifically this project provides the capabilities to prevent certain update functions from being executed on a dynamic basis in the SmartCanister on the Internet Computer.
 
 Since the Internet Computer has a reverse gas model, it is possible to draining cycles through a focused DOS attack. While this project is not a panacea to the DOS attack in general, it's motivation arises from how to prevent certain particularly expensive functions from being executed (i.e getting into the replicated state) in the case of DOS attack.
 
