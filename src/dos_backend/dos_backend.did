@@ -1,0 +1,19 @@
+service : {
+
+    "init_function": (text) -> (text);
+    "dos_list_methods": () -> (text) query;
+
+    "dos_add_proposal": (text) -> (text);
+    "dos_list_proposals": () -> (text);
+
+    "dos_set_timer_interval": (text) -> (text);
+
+
+    
+
+
+
+    "expensive_function": (text) -> (text);
+    "inexpensive_function": (text) -> (text) query ;
+
+}

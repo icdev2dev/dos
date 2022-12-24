@@ -1,0 +1,4 @@
+[workspace]
+members = [
+    "src/dos_backend",
+]
